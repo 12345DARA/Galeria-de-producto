@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu';
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: center;
+}
+
+.container-tittle{
+    padding: 30px;
+    background-color: #eee;
+    margin-bottom: 50px;
+    color: #222;
+}
+
+main{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.container-img{
+    background-color: #f7f7f9;
+}
+
+.container-info-product{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-price{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e4e4e4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-price span{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.hidden{
+    display: none;
+}
+
+.container-description,
+.container-additional-information,
+.container-reviews{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 10px;
+}
+
+.tittle-description,
+.tittle-additional-information,
+.tittle-reviews{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.text-description{
+    font-size: 13px;
+    color: #252525;
+    line-height: 22px;
+    margin-top: 25px;
+}
+
